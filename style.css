@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { background: #f3f4f6; color: #0e79c5; display: flex; flex-direction: column; align-items: center; padding: 20px; }
+#intro { text-align: center; background: #fff; padding: 60px; border-radius: 16px; border: 1px solid #ccc; max-width: 500px; width: 100%; margin-top: 50px; }
+#intro button { background: #325cd1; color: #fff; border: 0; padding: 12px 24px; border-radius: 20px; cursor: pointer; margin-top: 15px; font-weight: bold; }
+.container { display: none; flex-direction: row; width: 1000px; min-height: 1800px; border: 1px solid #ccc; background: #fff; margin-top: 3em; }
+.sidebar { width: 32%; min-width: 260px; background: #1172cc; color: #100101; padding: 50px 20px; display: flex; flex-direction: column; gap: 35px; }
+.sidebar * { color: #fff !important; }
+.sidebar img { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 2px solid #c71717; margin: 0 auto; display: block; }
+.main { width: 68%; background: #fff; color: #000; padding: 60px 40px; display: flex; flex-direction: column; gap: 45px; }
+.main h2 { color: #2e7d32; font-weight: bold; }
+.main h4, .main h3, .contact-box h3 { color: #d32f2f; }
+.main p, .main div { line-height: 1.8; }
+.skill-tag, .hobby-tag { display: inline-block; border: 3px solid #080808; border-radius: 14px; padding: 7px 12px; margin: 3px 1px; font-size: 16px; }
+.contact-box { margin-top: auto; background: #f9fafb; border-left: 4px solid #000; padding: 20px; }
+.wa-link { color: #25d366 !important; font-weight: bold; text-decoration: underline; }

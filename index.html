@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Basil Wanyonyi - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- INTRO CARD -->
+<div id="intro">
+    <h1>Christopher Basil Wanyonyi</h1>
+    <p>ICT Professional</p>
+    <button onclick="document.getElementById('intro').style.display='none';document.getElementById('cv').style.display='flex';">Here is my CV</button>
+</div>
+
+<!-- CV CONTAINER -->
+<div class="container" id="cv">
+    <!-- LEFT SIDEBAR (COLUMN 1) -->
+    <aside class="sidebar">
+        <img src="image.png" alt="Christopher Basil">
+        
+        <!-- REAL-TIME CLOCK -->
+        <div id="live-clock" class="clock-box">Loading Time...</div>
+
+        <h1 align="center">Christopher Basil Wanyonyi</h1>
+        <div class="title">ICT Professional</div>
+
+        <h3>Contact</h3>
+        <p>📧 wanyonyibasil@gmail.com</p>
+        <p>📞 +254 796 436 298</p>
+        <p>𖤣 Nairobi, Kenya</p>
+
+        <h3>Skills</h3>
+        <div>
+            <span class="skill-tag">📊Data Analyst</span>
+            <span class="skill-tag">👾Graphic Design</span>
+            <span class="skill-tag">🤖Web Development</span>
+            <span class="skill-tag">🖳Cybersecurity</span>
+            <span class="skill-tag">𓆗Python & JavaScript</span>
+          
+        </div>
+
+        <h3>Hobbies</h3>
+        <div>
+            <span class="hobby-tag">Coding</span>
+            <span class="hobby-tag">Gaming</span>
+        </div>
+        <div>
+        <h3>About Me</h3>
+<p>Passionate ICT specialist focused on building secure web applications, data analytics, and modern network systems.</p>
+            </div>
+            <h3>Profiles</h3>
+               <p>🔗 <a href="https://github.com/basil123464/" target="_blank">my GitHub</a></p>
+               <p>💼 <a href="https://www.linkedin.com/in/christopher-basil-874ab7386/" target="_blank">:linkedin:</a></p>
+               <p>🌐 <a href="https://nickie-inventory-system.vercel.app/" target="_blank">Basil Webs(app)</a></p>
+               <p>🌎 <a href="https://christopher-basil-portfolio.vercel.app/" target="_blank">PORTFOLIO</a></p>
+    </aside>
+
+    <!-- RIGHT MAIN SECTION (COLUMN 2) -->
+    <main class="main">
+        <div class="section">
+            <h2><u>Background</u></h2>
+            <p>I am Christopher Basil Wanyonyi, a dedicated professional in Information and Communication Technology (ICT). I am passionate about web development and cybersecurity, and I aim to make a positive impact in my community.</p>
+            <div class="links"><a href="#education">→ Educational Background</a> <a href="#experience">→ Experience & Projects</a></div>
+        </div>
+
+        <div class="section" id="education">
+            <h2><u>Educational Background</u></h2>
+            <div class="item"><h4>➤Degree</h4><div class="meta">Kisii University • Present</div></div>
+            <div class="item"><h4>➤Diploma</h4><div class="meta">Graffingsavvy College • 2024 – 2025</div></div>
+            <div class="item"><h4>➤Certificate</h4><div class="meta">Khasoko Boys • 2021 – 2024</div></div>
+            <div class="item"><h4>➤Certificate</h4><div class="meta">Mwibale Academy • 2012 – 2021</div></div>
+        </div>
+        <div class="section" id="experience">
+            <h2><u>Experience & Projects</u></h2>
+            <div class="item"><h4>Graphic Designer</h4><div class="meta">Nickie Graphics</div><p>Created logos, promotional materials, banners and other graphic design works.</p></div>
+            <div class="item"><h4>Web Developer</h4><div class="meta">Basil Webs</div><p>Developed websites for various clients to solve different business objectives.</p></div>
+        </div>
+        <div class="contact-box">
+            <h3>Contact Me</h3>
+            <p>Email: wanyonyibasil@gmail.com</p>
+            <p>Phone: +254 796 436 298 | <a href="https://wa.me/254796436298" target="_blank">WhatsApp Me</a></p>
+            <p>Location: Nairobi, Kenya</p>
+        </div>
+    </main>
+</div>
+<script>
+function updateClock() {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString('en-KE', { timeZone: 'Africa/Nairobi' });
+    document.getElementById('live-clock').innerText = "⏱️ " + timeString + " (EAT) • Enjoying life with ICT";
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+
+</body>
+</html>
